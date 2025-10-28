@@ -9,7 +9,7 @@
 			"type": "string"
 		},
 		"connected_asset": {
-			"type": "string"
+			"type": ["string", "null"],
 		},
 		"description": {
 			"type": "string"
