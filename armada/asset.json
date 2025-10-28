@@ -1,5 +1,6 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
 	"properties": {
 		"alert_description": {
 			"type": "string"
@@ -50,7 +51,20 @@
 			"type": "string"
 		},
 		"deeplink_urls": {
-			"type": "array"
+			"type": "array",
+			"items": [
+				{
+					"type": "object",
+					"properties": {
+						"alert_link": {
+							"type": "string"
+						}
+					},
+					"required": [
+						"alert_link"
+					]
+				}
+			]
 		},
 		"kit_number": {
 			"type": "string"
@@ -58,15 +72,38 @@
 		"serviceline_id": {
 			"type": "string"
 		},
-		"starlink_account_id": {
+		"bono_account_id": {
 			"type": "string"
 		},
-		"starlink_id": {
+		"bono_id": {
 			"type": "string"
 		},
 		"user_preference_key": {
 			"type": "string"
 		}
 	},
-	"type": "object"
+	"required": [
+		"alert_description",
+		"alert_id",
+		"alert_name",
+		"alert_severity",
+		"alert_severity_critical",
+		"alert_severity_info",
+		"alert_severity_warning",
+		"alert_time",
+		"alert_title",
+		"asset_account_id",
+		"asset_account_name",
+		"asset_display_name",
+		"asset_id",
+		"asset_organization_id",
+		"asset_organization_name",
+		"asset_type",
+		"deeplink_urls",
+		"kit_number",
+		"serviceline_id",
+		"bono_account_id",
+		"bono_id",
+		"user_preference_key"
+	]
 }

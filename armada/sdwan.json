@@ -1,5 +1,6 @@
 {
-	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
 	"properties": {
 		"account_id": {
 			"type": "string"
@@ -8,7 +9,7 @@
 			"type": "string"
 		},
 		"connected_asset": {
-			"type": "null"
+			"type": "string"
 		},
 		"description": {
 			"type": "string"
@@ -38,5 +39,18 @@
 			"type": "string"
 		}
 	},
-	"type": "object"
+	"required": [
+		"account_id",
+		"asset_id",
+		"connected_asset",
+		"description",
+		"event_id",
+		"event_type",
+		"org_id",
+		"raw_data",
+		"serial",
+		"severity",
+		"timestamp",
+		"vendor_name"
+	]
 }
