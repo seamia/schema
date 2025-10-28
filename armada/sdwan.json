@@ -1,0 +1,42 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"account_id": {
+			"type": "string"
+		},
+		"asset_id": {
+			"type": "string"
+		},
+		"connected_asset": {
+			"type": "null"
+		},
+		"description": {
+			"type": "string"
+		},
+		"event_id": {
+			"type": "string"
+		},
+		"event_type": {
+			"type": "string"
+		},
+		"org_id": {
+			"type": "string"
+		},
+		"raw_data": {
+			"type": "string"
+		},
+		"serial": {
+			"type": "string"
+		},
+		"severity": {
+			"type": "string"
+		},
+		"timestamp": {
+			"type": "string"
+		},
+		"vendor_name": {
+			"type": "string"
+		}
+	},
+	"type": "object"
+}

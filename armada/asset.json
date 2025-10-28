@@ -1,0 +1,72 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"properties": {
+		"alert_description": {
+			"type": "string"
+		},
+		"alert_id": {
+			"type": "string"
+		},
+		"alert_name": {
+			"type": "string"
+		},
+		"alert_severity": {
+			"type": "string"
+		},
+		"alert_severity_critical": {
+			"type": "boolean"
+		},
+		"alert_severity_info": {
+			"type": "boolean"
+		},
+		"alert_severity_warning": {
+			"type": "boolean"
+		},
+		"alert_time": {
+			"type": "string"
+		},
+		"alert_title": {
+			"type": "string"
+		},
+		"asset_account_id": {
+			"type": "string"
+		},
+		"asset_account_name": {
+			"type": "string"
+		},
+		"asset_display_name": {
+			"type": "string"
+		},
+		"asset_id": {
+			"type": "string"
+		},
+		"asset_organization_id": {
+			"type": "string"
+		},
+		"asset_organization_name": {
+			"type": "string"
+		},
+		"asset_type": {
+			"type": "string"
+		},
+		"deeplink_urls": {
+			"type": "array"
+		},
+		"kit_number": {
+			"type": "string"
+		},
+		"serviceline_id": {
+			"type": "string"
+		},
+		"starlink_account_id": {
+			"type": "string"
+		},
+		"starlink_id": {
+			"type": "string"
+		},
+		"user_preference_key": {
+			"type": "string"
+		}
+	},
+	"type": "object"
+}
