@@ -72,10 +72,10 @@
 		"serviceline_id": {
 			"type": "string"
 		},
-		"bono_account_id": {
+		"startlink_account_id": {
 			"type": "string"
 		},
-		"bono_id": {
+		"startlink_id": {
 			"type": "string"
 		},
 		"user_preference_key": {
@@ -102,8 +102,8 @@
 		"deeplink_urls",
 		"kit_number",
 		"serviceline_id",
-		"bono_account_id",
-		"bono_id",
+		"startlink_account_id",
+		"startlink_id",
 		"user_preference_key"
 	]
 }
