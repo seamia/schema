@@ -1,0 +1,36 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"debug": {
+			"type": "object"
+		},
+		"encoding": {
+			"type": "string"
+		},
+		"payload": {
+			"type": "object"
+		},
+		"schema_name": {
+			"type": "string"
+		},
+		"schema_url": {
+			"type": "string"
+		},
+		"source": {
+			"type": "string"
+		},
+		"version": {
+			"type": "string"
+		}
+	},
+	"required": [
+		"encoding",
+		"payload",
+		"schema_name",
+		"schema_url",
+		"source",
+		"version"
+	],
+	"additionalProperties": true
+}
